@@ -1,0 +1,123 @@
+ {
+	"properties": [
+        {
+            "id":"prop1",
+			"type":"House",
+            "bedrooms":3,
+			"price":750000,
+			"tenure":"Freehold",
+			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+			"location":"Petts Wood Road, Petts Wood, Orpington, BR6",
+            "postcodeArea": "BR6",
+			"picture":"/PropertyImages/SearchImages/prop1.jpeg",
+			"url":"Properties/prop1",
+            "added": {
+                "month":"October",
+                "day":12,
+                "year":2022
+            }
+        },
+		{
+            "id":"prop2",
+			"type":"Flat",
+            "bedrooms":2,
+			"price":399995,
+			"tenure":"Freehold",
+			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms. This apartment being only five years old, is still under a 10 year building guarantee...",
+			"location":"Crofton Road, Orpington BR6",
+            "postcodeArea": "BR6",
+			"picture":"/PropertyImages/SearchImages/prop2.jpeg",
+			"url":"Properties/prop2",
+            "added": {
+                "month":"September",
+                "day":14,
+                "year":2022
+            }
+        },
+        {
+            "id":"prop3",
+			"type":"Semi-Detached",
+            "bedrooms":4,
+			"price":400000,
+			"tenure":"Freehold",
+			"description":"The property boasts entrance hall, neutral lounge/diner with original fireplace, newly fitted kitchen and two storage cupboards to the ground floor. Whereas upstairs comprises two double bedrooms with fitted wardrobes, newly fitted bathroom and separate W.C.",
+			"location":"Hookwood Road, Shrewsbury, Shropshire, SY1",
+            "postcodeArea": "SY1",
+			"picture":"/PropertyImages/SearchImages/prop3.jpeg",
+			"url":"Properties/prop3",
+            "added": {
+                "month":"October",
+                "day":31,
+                "year":2022
+            }
+        },
+        {
+            "id":"prop4",
+			"type":"Detached",
+            "bedrooms":4,
+			"price":1600000,
+			"tenure":"Freehold",
+			"description":"Daisy Lake is a wonderful imposing property which was built in 1968 to replicate a Georgian country house. Set in lovely grounds extending to just over 8.5 acres, the house was built to appreciate the glorious surroundings and was designed to afford maximum benefit of not only the beautiful gardens and grounds but to allow in plenty of natural light. The house offers all of this with decorative cornicing and wonderful room proportions whilst in its beautiful setting and grounds.",
+			"location":"Oakley, Market Drayton, Shropshire, TF9",
+            "postcodeArea": "TF9",
+			"picture":"/PropertyImages/SearchImages/prop4.jpeg",
+			"url":"Properties/prop4",
+            "added": {
+                "month":"May",
+                "day":16,
+                "year":2023
+            }
+        },
+        {
+            "id":"prop5",
+			"type":"Detached",
+            "bedrooms":8,
+			"price":7500000,
+			"tenure":"Freehold",
+			"description":"Arthington Hall is a classically designed Grade II listed Georgian house approached via a very discrete circular tree lined drive. At the gates to the property lies a Lodge House. The gardens and grounds have been beautifully landscaped to include a walled garden, parterre , orchard, courtyard and formal garden. Ample provision for car parking has been incorporated along with garaging for four cars, which was included in the recent renovation.",
+			"location":"Arthington Hall, Arthington, Otley, West Yorkshire, LS21",
+            "postcodeArea": "LS21",
+			"picture":"/PropertyImages/SearchImages/prop5.jpeg",
+			"url":"Properties/prop5",
+            "added": {
+                "month":"September",
+                "day":5,
+                "year":2023
+            }
+        },
+        {
+            "id":"prop6",
+			"type":"Detached Bungalow",
+            "bedrooms":4,
+			"price":850000,
+			"tenure":"Freehold",
+			"description":"We are delighted to offer for sale this individually built and completely modernised 4 bedroom detached property located in a highly sought after area of Denmead. With views across local fields and a magnificent landscaped rear garden early interest is assured! The property boasts 4 double bedrooms over 2 floors, 3 bathroom suites, a large separate lounge, utility room, reception hall and a spectacular open plan kitchen and family room. Externally there is a large detached garage, further double length garage, considerable off road parking, a beautiful large landscaped rear garden and a fantastic detached out building which is currently used as a bar and has its own shower room, internet, heating and power. The property has a host of additional features including internal Oak doors, wired in speakers, new flooring etc and really needs to be seen internally to be fully appreciated.",
+			"location":"Green Lane, Denmead, PO17",
+            "postcodeArea": "PO17",
+			"picture":"/PropertyImages/SearchImages/prop6.jpeg",
+			"url":"Properties/prop6",
+            "added": {
+                "month":"November",
+                "day":21,
+                "year":2023
+            }
+        },
+        {
+            "id":"prop7",
+			"type":"Semi-Detached",
+            "bedrooms":3,
+			"price":190000,
+			"tenure":"Freehold",
+			"description":" Brand new to market is this extended three-bedroom semi-detached house, located in the highly sought after residential area of Gleadless. Benefitting from easy access to a range of amenities including primary and secondary schools, shops, and transport links. Perfect for first time buyer/s, couples or families. This property features a kitchen diner, living room, utility room, three bedrooms, bathroom, well-maintained rear garden with driveway & garage. Offered for sale with the benefits of gas central heating, uPVC double glazing.",
+			"location":"Carson Mount, Sheffield, South Yorkshire, S12",
+            "postcodeArea": "S12",
+			"picture":"/PropertyImages/SearchImages/prop7.jpeg",
+			"url":"Properties/prop7",
+            "added": {
+                "month":"January",
+                "day":2,
+                "year":2024
+            }
+        }
+]}
+

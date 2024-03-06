@@ -1,0 +1,171 @@
+/*For normal screen size*/
+.propertyListing {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;    
+  }
+
+  .propertyDetailsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .propertyDetails h2 {
+    margin-top: -10px;
+    text-shadow: none;
+    margin-left: -3px;
+    font-size: 1.5rem;
+    color: #666;
+    padding: 3px;
+  }
+  
+  .propertyDetails p {
+    font-size: 1.5rem;
+    color: #666;
+    padding: 3px;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #2ecc71; 
+  }
+
+  .addToFavoritesButton {
+    background-color: #d85e5e;
+    font-size: 1.5rem;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    margin-top: -10.8rem;
+  }
+  
+  .addToFavoritesButton span {
+    margin-left: 8px;
+  }
+  
+  .addToFavoritesButton:hover {
+    background-color: #941111;
+  }
+
+.propertyDescription p {
+  font-size: 1.4rem;
+}
+
+.propertyGallery {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/*Overide image gallery plugin styles to resize*/
+.image-gallery-thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+.image-gallery {
+  width: 50%; 
+  height: auto;
+}
+
+.image-gallery-slide img {
+  height: auto;
+}
+
+/*Interactive floor plan and map styling*/
+.floorPlan{
+  justify-content: center;
+  align-items: center;
+}
+
+.floorPlan img {
+  width: 100%; 
+  height: auto; 
+  margin-left: 11rem;
+}
+
+.tools button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 5px;
+  background-color: #22577A; 
+  color: #C7F9CC;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.Map iframe {
+  border-radius: 15px;
+  border: 3px solid #8080808c;
+  width: 100%;
+  height: 500px;
+}
+
+/*For smaller than iPad size*/
+@media (max-width: 768px) {
+  
+  .image-gallery {
+    width: 100%; 
+  }
+
+  .propertyListing {
+    max-width: 88%;
+    padding: 10px;
+    border-radius: 15px;  
+    flex-direction: column;  
+  }
+
+  .propertyDetailsContainer {
+    flex-direction: column;
+  }
+
+  .propertyDetailsContainer h1 {
+    font-size: 20px;
+  }
+
+  .propertyDetailsContainer p {
+    font-size: 15px;
+  }
+
+  .addToFavoritesButton {
+    margin-top: 10px;
+    margin-left: 0px;
+    max-width: 100px;
+    height: auto;
+    font-size: 10px;
+  }
+
+  .propertyDescription h1 {
+    font-size: 20px;
+  }
+  
+  .propertyDescription h2 {
+    font-size: 12px;
+    margin-left: 0;
+  }
+
+  .propertyDescription p {
+    font-size: 12px;
+  }
+
+  .floorPlan img {
+    margin-left: 0;
+  }
+
+  .Map iframe {
+    border-radius: 15px;
+    border: 3px solid #8080808c;
+    width: 100%;
+    height: 200px;
+  }
+}
+

@@ -1,0 +1,180 @@
+/* Form Styling */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #22577A;
+  border-radius: 15px;
+  padding: 10px;
+  gap: 10px;
+  margin-bottom: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+label {
+  font-weight: bold;
+  color: #fff;
+  margin-top: 10px;
+}
+
+/* Button Styling */
+button {
+  margin-left: 0.5rem;
+  background-color: #57CC99;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transition: 0.5s;
+}
+
+/* Search Results Styling */
+h2 {
+  margin-left: 0.3rem;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-shadow: 3px 3px 5px rgba(58, 58, 58, 0.2);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+img {
+  margin-top: 2px;
+  margin-left: 2px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px
+}
+
+div {
+  padding: 0;
+  margin: 2px;
+}
+
+p {
+  margin: 0;
+}
+
+.imgPriceContainer {
+    width: 300px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+
+.priceContainer {
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-left: 4px;
+}
+
+.location {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.type {
+  color: #303030;
+    margin-top: 0.3rem;
+    margin-bottom: 0.2rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.description {
+    color: #666666;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+/* Link */
+a {
+  font-size: 1.7rem;
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px)  {
+
+  button {
+    margin-left: 80px;
+    margin-bottom: 5px;
+  }
+  
+  
+  .form label{
+    margin-top: 0px;
+    margin-left: 110px
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  img {
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px
+  } 
+  
+  .priceContainer {
+      font-weight: bold;
+      font-size: 1rem;
+      margin-left: -4px;
+  }
+  
+  .location {
+      font-weight: bold;
+      font-size: 1.1rem;
+  }
+  
+  .type {
+    color: #303030;
+      margin-top: 0.3rem;
+      margin-bottom: 0.2rem;
+      font-weight: 500;
+      font-size: 1rem;
+  }
+
+  .description{
+    font-size: 11px;
+    padding: 2px;
+  }
+
+  .resultsContainer a {
+    font-size: 1.2rem;
+    color: #3498db;
+    text-decoration: none;
+    margin-left: 58px;
+  }
+}

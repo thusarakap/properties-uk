@@ -1,0 +1,114 @@
+/* FavoritesList.css */
+
+.favoritesList {
+  border: 3px solid rgba(0, 0, 0, 0.5);;
+  min-width: 220px;
+  padding: 10px;
+  min-height: 500px;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  transition: border-color 5s ease;
+  align-items: center;
+}
+
+.favoritesList.over {
+  border: 3px dashed #3aa75e;
+  transition: 0.8s ease;
+}
+
+.favoritesList h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(58, 58, 58, 0.3);
+}
+
+.favoritesList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.favoritesList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #797979;
+  padding: 10px 0;
+}
+
+.favoritesList img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-left: 5px;
+}
+
+.favItemHeading {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.favListButtons {
+  text-align: center;
+}
+
+.viewPropButton {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.removeFavItemButton {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.clearAllButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+
+  .favoritesList {
+    min-height: 100px;
+    padding: 5px;
+  }
+
+  .favoritesList h3 {
+    font-size: 20px;
+  }
+
+  .favItemHeading {
+    font-size: 1rem; 
+    margin-bottom: 10px;
+  }
+
+  .favoritesList img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-left: 0; /* Adjust the margin */
+  }
+
+  .clearAllButtonContainer {
+  display: flex;
+  justify-content: left;
+}
+}
+
+
